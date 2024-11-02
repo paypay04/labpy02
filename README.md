@@ -26,9 +26,9 @@ Jika memilih VIP, maka harga dasar tiket adalah Rp 100.000.
 
 Jika Ya (member), maka diskon sebesar 20% akan diberikan:
 
-Untuk Reguler, diskon 20% berarti potongan Rp 10.000, sehingga total bayar menjadi Rp 48.000.
+Untuk Reguler, diskon 20% berarti potongan Rp 10.000, sehingga total bayar menjadi Rp 40.000.
 
-Untuk VIP, diskon 20% berarti potongan Rp 20.000, sehingga total bayar menjadi Rp 88.000.
+Untuk VIP, diskon 20% berarti potongan Rp 20.000, sehingga total bayar menjadi Rp 80.000.
 
 
 Jika Tidak (bukan member), tidak ada diskon:
@@ -55,26 +55,35 @@ Cara Kerja Program
 
 1. Start: Program dimulai.
 
-2. Pilih tipe tiket: Pengguna memilih jenis tiket yang diinginkan, apakah Reguler atau VIP.
 
-Jika memilih Reguler, maka harga dasar tiket adalah Rp 50.000.
-
-Jika memilih VIP, maka harga dasar tiket adalah Rp 100.000.
-
-3. Member: Program memeriksa apakah pengguna adalah anggota (member).
-
-Jika Ya (member), maka diskon sebesar 20% akan diberikan:
-
-Untuk Reguler, diskon 20% berarti potongan Rp 10.000, sehingga total bayar menjadi Rp 48.000.
-
-Untuk VIP, diskon 20% berarti potongan Rp 20.000, sehingga total bayar menjadi Rp 88.000.
+2. Tampilkan Menu Operasi: Program menampilkan pilihan operasi yang dapat dilakukan (+, -, *, /).
 
 
-Jika Tidak (bukan member), tidak ada diskon:
-
-Untuk Reguler, total bayar tetap Rp 50.000.
-
-Untuk VIP, total bayar tetap Rp 100.000.
+3. Input angka pertama: Pengguna memasukkan angka pertama.
 
 
-4. Selesai: Program berakhir dengan menampilkan total bayar sesuai pilihan dan status pengguna.
+4. Input angka kedua: Pengguna memasukkan angka kedua.
+
+
+5. Input operasi: Pengguna memilih operasi yang ingin digunakan (penjumlahan, pengurangan, perkalian, atau pembagian).
+
+
+6. Cek operator: Program memeriksa operator yang dipilih oleh pengguna.
+
+Jika operator adalah "+", program melakukan penjumlahan.
+
+Jika operator adalah "-", program melakukan pengurangan.
+
+Jika operator adalah "*", program melakukan perkalian.
+
+Jika operator adalah "/", program melakukan pembagian.
+
+
+
+7. Hitung dan Tampilkan Hasil: Program menghitung hasil sesuai operator yang dipilih dan menampilkan hasilnya.
+
+
+8. Program Selesai: Program berakhir.
+
+
+End: Program selesai dan tidak ada langkah selanjutnya.
