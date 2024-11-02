@@ -12,3 +12,69 @@ Fungsi lower(): Untuk mengubah input menjadi huruf kecil, sehingga memudahkan va
 Penggunaan List: Menggunakan in untuk memeriksa validitas tipe tiket dalam list yang berisi "reguler" dan "vip".
 
 ![flowchart 2](https://github.com/user-attachments/assets/42d3553d-c6aa-4c79-a5a7-92dd6ccce07c)
+
+Cara Kerja Program
+
+1. Start: Program dimulai.
+2.  Pilih tipe tiket: Pengguna memilih jenis tiket yang diinginkan, apakah Reguler atau VIP.
+
+Jika memilih Reguler, maka harga dasar tiket adalah Rp 50.000.
+
+Jika memilih VIP, maka harga dasar tiket adalah Rp 100.000.
+
+3. Member: Program memeriksa apakah pengguna adalah anggota (member).
+
+Jika Ya (member), maka diskon sebesar 20% akan diberikan:
+
+Untuk Reguler, diskon 20% berarti potongan Rp 10.000, sehingga total bayar menjadi Rp 48.000.
+
+Untuk VIP, diskon 20% berarti potongan Rp 20.000, sehingga total bayar menjadi Rp 88.000.
+
+
+Jika Tidak (bukan member), tidak ada diskon:
+
+Untuk Reguler, total bayar tetap Rp 50.000.
+
+Untuk VIP, total bayar tetap Rp 100.000.
+
+
+4. Selesai: Program berakhir dengan menampilkan total bayar sesuai pilihan dan status pengguna.
+
+
+
+Program Kalkulator Sederhana
+Program ini adalah kalkulator sederhana yang memungkinkan pengguna untuk melakukan operasi aritmatika dasar: penjumlahan, pengurangan, perkalian, dan pembagian. Program ini ditulis dalam Python dan menggunakan input dari pengguna untuk mendapatkan angka dan jenis operasi yang diinginkan.
+
+Deskripsi Program
+program ini dibuat menggunakan bahasa python dengan fitur :
+
+Memungkinkan pengguna untuk memasukkan dua angka. Mendukung empat operasi aritmatika: Penjumlahan (+) Pengurangan (-) Perkalian (*) Pembagian (/) Menangani pembagian dengan nol dengan pesan kesalahan yang sesuai. Menawarkan opsi untuk melakukan perhitungan baru setelah hasil ditampilkan.
+
+![flowchart 1](https://github.com/user-attachments/assets/cc1b078a-f61f-4ebe-8759-2350c3896a2b)
+Cara Kerja Program
+
+1. Start: Program dimulai.
+
+2. Pilih tipe tiket: Pengguna memilih jenis tiket yang diinginkan, apakah Reguler atau VIP.
+
+Jika memilih Reguler, maka harga dasar tiket adalah Rp 50.000.
+
+Jika memilih VIP, maka harga dasar tiket adalah Rp 100.000.
+
+3. Member: Program memeriksa apakah pengguna adalah anggota (member).
+
+Jika Ya (member), maka diskon sebesar 20% akan diberikan:
+
+Untuk Reguler, diskon 20% berarti potongan Rp 10.000, sehingga total bayar menjadi Rp 48.000.
+
+Untuk VIP, diskon 20% berarti potongan Rp 20.000, sehingga total bayar menjadi Rp 88.000.
+
+
+Jika Tidak (bukan member), tidak ada diskon:
+
+Untuk Reguler, total bayar tetap Rp 50.000.
+
+Untuk VIP, total bayar tetap Rp 100.000.
+
+
+4. Selesai: Program berakhir dengan menampilkan total bayar sesuai pilihan dan status pengguna.
